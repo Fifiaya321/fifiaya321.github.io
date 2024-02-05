@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FifiTutor</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4ec;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0px;
+            background: url('https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;
+            padding: 150px;
+            color: white;
+            font-size: 40px;
+            top: 0;
+            position: relative;
+        }
+
+        #logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            margin: 0;
+            font-size: 30px;
+            color: white;
+        }
+
+        #top-nav {
+            position: absolute;
+            top: 30px;
+            right: 10px;
+            margin: 0;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+        }
+
+        p {
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #about-me {
+            background-color: #f8f4ec;
+            text-align: center;
+            margin-bottom: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #services-offered {
+            background-color: #f0e4d4;
+            text-align: center;
+        }
+
+        #services-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .services-item {
+            flex: 0 0 calc(50% - 20px);
+            margin: 10px;
+        }
+
+        .services-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .services-caption {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px; /* Adjust the font size as needed */
+            font-weight: bold; /* Make it bold */
+        }
+
+
+        .ask-question-button {
+            background-color: #444;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: bounce 1s infinite;
+        }
+
+ #join-crew-bottom {
+    background-color: black;
+    color: white;
+    padding: 80px;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.split-section {
+    flex: 1;
+}
+
+.join-crew-image {
+    width: 70%;
+    border-radius: 5px;
+    margin: auto; /* Center the image within the container */
+}
+
+#email-container-bottom {
+    margin-top: 20px;
+    display: flex;
+}
+
+#email-bottom {
+    flex: 1;
+    padding: 10px;
+}
+
+#submit-button-bottom {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h212 id="logo">FifiTutor</h212>
+        <nav id="top-nav">
+            <a href="#">Home</a>
+            <a href="#">Ask A Question!</a>
+        </nav>
+        <h1>Get Free Homework Help Today!</h1>
+        <p>Answers within 30-60 minutes</p>
+        <form action="YOUR_GOOGLE_FORM_LINK" target="_blank">
+            <button type="submit" class="ask-question-button">Ask a Question</button>
+        </form>
+        <script id="oneai-snippet" src="https://oneai.com/~widget?id=fifihelper" defer></script>
+    </header>
+
+    <section id="about-me">
+        <h2>About Us</h2>
+        <p>
+            Est. 2022
+            <br>
+            FifiTutor is on a mission to provide free help to anyone k-12 who needs assistance with homework or is struggling with a course. Please feel free to ask any math or English question by filling out the designated form. We look forward to working with you!
+        </p>
+    </section>
+
+    <section id="services-offered">
+        <h2>Services Offered</h2>
+        <div id="services-container">
+            <div class="services-item">
+                <img src="https://jemi.so/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2F3%2Fdoctype-hi-res.jpg%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=640&q=75" alt="Essay Proofread and Grammar Check" class="services-image">
+                <p class="services-caption">Essay Proofread and Grammar Check</p>
+            </div>
+            <div class="services-item">
+                <img src="https://jemi.so/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1516321497487-e288fb19713f%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=640&q=75" alt="Homework Questions Answered" class="services-image">
+                <p class="services-caption">Homework Questions Answered</p>
+            </div>
+        </div>
+    </section>
+
+     <section id="join-crew-bottom">
+        <div class="split-section">
+            <img src="https://jemi.so/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1454165804606-c3d57bc86b40%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=750&q=75" alt="Join the FifiTutor Crew Image" class="join-crew-image">
+        </div>
+        <div class="split-section">
+            <h2>Join the FifiTutor Crew</h2>
+            <p>
+                FifiTutor is looking for people interested in helping out with answering student questions.
+                If you are interested in helping, please enter your email below, and I will get back to you!
+            </p>
+            <!-- Replace 'YOUR_GOOGLE_FORM_LINK' with the actual link to your Google Form -->
+            <div id="email-container-bottom">
+                <input type="email" id="email-bottom" name="email" placeholder="Your Email" required>
+                <button type="submit" id="submit-button-bottom">Submit</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script id="oneai-snippet" src="https://oneai.com/~widget?id=fifihelper" defer></script>
+</body>
+
+</html>
